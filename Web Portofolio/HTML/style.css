@@ -1,0 +1,73 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #01010f;
+    color: white;
+    height: 70%;
+}
+
+header {
+    text-align: center;
+    border: solid 1px white;
+}
+
+main {
+    padding-top: 10px;
+    display: flex;
+}
+
+article {
+    order: 2;
+}
+
+.hai {
+    color: limegreen
+}
+
+.border1 {
+    border-top: solid 1px white;
+    padding: 15px 0 0 0;;
+}
+
+nav {
+    width: 10%;
+    border: solid 2px white;
+    border-radius: 100px 100px 0 0;
+    box-sizing: border-box;
+    order: 1;
+}
+
+svg {
+    height: 50px;
+    width: 50px;
+    padding: 0 0 0 40px;
+    fill: white;
+}
+
+img {
+    height: 120px;
+    width: 120px;
+    border-radius: 60px;
+    padding: 5px 5px 0 5px;
+}
+
+.hubungi {
+    background-color: midnightblue;
+    text-align: center;
+    font-size: 15px;
+}
+
+@media( min-width: 600px ) {
+    img {
+        height: 120px;
+        width: 120px;
+        border-radius: 60px;
+        padding: 5px 5px 0 5px;
+    }
+
+    svg {
+        height: 50px;
+        width: 50px;
+        padding: 0 0 0 40px;
+        fill: white;
+    }
+}
